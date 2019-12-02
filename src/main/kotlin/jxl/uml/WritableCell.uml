@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>jxl.write.WritableCell</OriginalElement>
+  <nodes>
+    <node x="66.25000000000011" y="352.0">jxl.write.Formula</node>
+    <node x="638.7380952380952" y="274.0">jxl.write.biff.BlankRecord</node>
+    <node x="1030.875" y="352.0">jxl.write.Label</node>
+    <node x="578.4454365079364" y="186.0">jxl.write.biff.CellValue</node>
+    <node x="0.0" y="274.0">jxl.write.biff.FormulaRecord</node>
+    <node x="476.6130952380952" y="0.0">jxl.Cell</node>
+    <node x="478.7380952380952" y="274.0">jxl.write.biff.NumberRecord</node>
+    <node x="186.2500000000001" y="352.0">jxl.write.Boolean</node>
+    <node x="235.58333333333326" y="274.0">jxl.write.biff.BooleanRecord</node>
+    <node x="847.9999999999999" y="352.0">jxl.write.DateTime</node>
+    <node x="791.7380952380952" y="274.0">jxl.write.biff.DateRecord</node>
+    <node x="374.77876984126976" y="352.0">jxl.write.Number</node>
+    <node x="954.6249999999999" y="274.0">jxl.write.biff.LabelRecord</node>
+    <node x="442.44543650793645" y="186.0">jxl.biff.EmptyCell</node>
+    <node x="700.9880952380952" y="352.0">jxl.write.Blank</node>
+    <node x="488.7380952380952" y="88.0">jxl.write.WritableCell</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="jxl.write.biff.NumberRecord" target="jxl.write.biff.CellValue">
+      <point x="0.0" y="-14.0" />
+      <point x="548.7380952380952" y="254.0" />
+      <point x="626.7787698412698" y="254.0" />
+      <point x="-9.666666666666686" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.BlankRecord" target="jxl.write.biff.CellValue">
+      <point x="0.0" y="-14.0" />
+      <point x="704.7380952380952" y="254.0" />
+      <point x="646.1121031746031" y="254.0" />
+      <point x="9.666666666666686" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.DateRecord" target="jxl.write.biff.CellValue">
+      <point x="0.0" y="-14.0" />
+      <point x="853.7380952380952" y="244.0" />
+      <point x="665.4454365079364" y="244.0" />
+      <point x="29.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.CellValue" target="jxl.write.WritableCell">
+      <point x="0.0" y="-14.0" />
+      <point x="636.4454365079364" y="166.0" />
+      <point x="567.4880952380952" y="166.0" />
+      <point x="8.75" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Formula" target="jxl.write.biff.FormulaRecord">
+      <point x="-25.0" y="-14.0" />
+      <point x="91.25000000000011" y="332.0" />
+      <point x="74.0" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.FormulaRecord" target="jxl.Cell">
+      <point x="-37.0" y="-14.0" />
+      <point x="37.0" y="48.0" />
+      <point x="482.94642857142844" y="48.0" />
+      <point x="-31.666666666666686" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Boolean" target="jxl.write.biff.BooleanRecord">
+      <point x="33.33333333333326" y="-14.0" />
+      <point x="269.58333333333337" y="332.0" />
+      <point x="309.58333333333326" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.DateTime" target="jxl.Cell">
+      <point x="36.0" y="-14.0" />
+      <point x="937.9999999999999" y="332.0" />
+      <point x="944.1249999999999" y="332.0" />
+      <point x="944.1249999999999" y="58.0" />
+      <point x="533.6130952380952" y="58.0" />
+      <point x="19.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.WritableCell" target="jxl.Cell">
+      <point x="-5.6843418860808015E-14" y="-14.0" />
+      <point x="558.7380952380952" y="68.0" />
+      <point x="520.9464285714286" y="68.0" />
+      <point x="6.333333333333371" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.LabelRecord" target="jxl.write.biff.CellValue">
+      <point x="0.0" y="-14.0" />
+      <point x="1020.6249999999999" y="234.0" />
+      <point x="684.7787698412699" y="234.0" />
+      <point x="48.33333333333337" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Blank" target="jxl.write.WritableCell">
+      <point x="21.0" y="-14.0" />
+      <point x="763.9880952380952" y="332.0" />
+      <point x="781.2380952380952" y="332.0" />
+      <point x="781.2380952380952" y="156.0" />
+      <point x="584.9880952380952" y="156.0" />
+      <point x="26.25" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Label" target="jxl.write.biff.LabelRecord">
+      <point x="-28.0" y="-14.0" />
+      <point x="1044.875" y="332.0" />
+      <point x="1020.6249999999999" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Label" target="jxl.Cell">
+      <point x="28.0" y="-14.0" />
+      <point x="1100.875" y="332.0" />
+      <point x="1108.125" y="332.0" />
+      <point x="1108.125" y="48.0" />
+      <point x="546.2797619047618" y="48.0" />
+      <point x="31.66666666666663" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Blank" target="jxl.write.biff.BlankRecord">
+      <point x="-21.0" y="-14.0" />
+      <point x="721.9880952380952" y="332.0" />
+      <point x="704.7380952380952" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.biff.EmptyCell" target="jxl.write.WritableCell">
+      <point x="0.0" y="-14.0" />
+      <point x="500.44543650793645" y="166.0" />
+      <point x="549.9880952380952" y="166.0" />
+      <point x="-8.75" y="14.0" />
+    </edge>
+    <edge source="jxl.write.DateTime" target="jxl.write.biff.DateRecord">
+      <point x="-36.0" y="-14.0" />
+      <point x="865.9999999999999" y="332.0" />
+      <point x="853.7380952380952" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Boolean" target="jxl.write.WritableCell">
+      <point x="-1.1368683772161603E-13" y="-14.0" />
+      <point x="236.25" y="332.0" />
+      <point x="225.08333333333326" y="332.0" />
+      <point x="225.08333333333326" y="146.0" />
+      <point x="514.9880952380952" y="146.0" />
+      <point x="-43.75" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.FormulaRecord" target="jxl.write.biff.CellValue">
+      <point x="37.0" y="-14.0" />
+      <point x="111.0" y="234.0" />
+      <point x="588.1121031746031" y="234.0" />
+      <point x="-48.333333333333314" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Number" target="jxl.Cell">
+      <point x="-30.66666666666663" y="-14.0" />
+      <point x="390.11210317460313" y="332.0" />
+      <point x="394.08333333333326" y="332.0" />
+      <point x="394.08333333333326" y="68.0" />
+      <point x="508.2797619047618" y="68.0" />
+      <point x="-6.333333333333314" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Formula" target="jxl.write.WritableCell">
+      <point x="25.0" y="-14.0" />
+      <point x="141.2500000000001" y="332.0" />
+      <point x="158.5000000000001" y="332.0" />
+      <point x="158.5000000000001" y="136.0" />
+      <point x="497.4880952380952" y="136.0" />
+      <point x="-61.25" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Number" target="jxl.write.biff.NumberRecord">
+      <point x="30.66666666666663" y="-14.0" />
+      <point x="451.4454365079364" y="332.0" />
+      <point x="548.7380952380952" y="332.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Number" target="jxl.write.WritableCell">
+      <point x="0.0" y="-14.0" />
+      <point x="420.77876984126976" y="156.0" />
+      <point x="532.4880952380952" y="156.0" />
+      <point x="-26.25" y="14.0" />
+    </edge>
+    <edge source="jxl.write.biff.BooleanRecord" target="jxl.write.biff.CellValue">
+      <point x="0.0" y="-14.0" />
+      <point x="309.58333333333326" y="244.0" />
+      <point x="607.4454365079364" y="244.0" />
+      <point x="-29.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.DateTime" target="jxl.write.WritableCell">
+      <point x="0.0" y="-14.0" />
+      <point x="901.9999999999999" y="332.0" />
+      <point x="926.2380952380952" y="332.0" />
+      <point x="926.2380952380952" y="146.0" />
+      <point x="602.4880952380952" y="146.0" />
+      <point x="43.75" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Boolean" target="jxl.Cell">
+      <point x="-33.333333333333485" y="-14.0" />
+      <point x="202.91666666666663" y="332.0" />
+      <point x="214.08333333333326" y="332.0" />
+      <point x="214.08333333333326" y="58.0" />
+      <point x="495.6130952380952" y="58.0" />
+      <point x="-19.0" y="14.0" />
+    </edge>
+    <edge source="jxl.write.Label" target="jxl.write.WritableCell">
+      <point x="0.0" y="-14.0" />
+      <point x="1072.875" y="322.0" />
+      <point x="1097.125" y="322.0" />
+      <point x="1097.125" y="136.0" />
+      <point x="619.9880952380952" y="136.0" />
+      <point x="61.24999999999994" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="586.0" y="41.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
