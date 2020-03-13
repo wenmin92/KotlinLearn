@@ -12,10 +12,12 @@ fun main() {
 }
 
 fun sendPostRequest() {
+    val downloadParam = "p_5e48b7e0cbdea_LuTjQLle;Name_施耐庵, 罗贯中_赵述仁"
+
     val cookie =
         "XIAOEID=005d208eaf3a9a29bb26b0b8b4d0d60f; cookie_referer=https%3A%2F%2Fwww.google.com%2F; channel=16-6823; cookie_channel=16-6823; cookie_session_id=r6WiLa18Rh8Td0P7BHA3gUQ2vOirzCpe; tgw_l7_route=9450dc47c63389a391affe14069eba52; laravel_session=eyJpdiI6ImxnME9GUjYxa0VhU3RXVVFPeXNocXc9PSIsInZhbHVlIjoidUFKR29DczJaQ0Z1VkYyUzRyZzRmdk5vOHFRWHdWNmg2cDFkanhSb3N1TkhyKzZjRmNQa09vYWk3SEpIQUw1RE54TFN3bHUwZndYRXVTOFRrTEZYRnc9PSIsIm1hYyI6IjlmNmE4MTgzNmYyN2EzYWY4NTUyYTgzNjg5MGQ5ODYyM2NmNjBiZDY2ZTI2OTA5OWVkNjJiZWIzZDY1ZjNmNzcifQ%3D%3D"
-    val bookId = "p_5bcd83f1a3bf3_gIm0ysQc"
-    val downloadDir = "D:\\Downloads\\芳华_严歌苓"
+    val bookId = downloadParam.split(";")[0]
+    val downloadDir = "D:\\Downloads\\${downloadParam.split(";")[1]}"
 
     // 获取章节列表
     val chapters = Unirest.post("https://pc-shop.xiaoe-tech.com/apphBAB9ixX8436/open/column.resourcelist.get/2.0")
